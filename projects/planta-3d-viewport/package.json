@@ -1,0 +1,21 @@
+{
+  "name": "planta-3d-viewport",
+  "version": "1.0.0",
+  "description": "React Three Fiber plant viewport published as a Web Component (planta-3d-viewport) for the Angular host app",
+  "type": "module",
+  "main": "dist/planta-3d-viewport.umd.js",
+  "module": "dist/planta-3d-viewport.js",
+  "types": "dist/index.d.ts",
+  "files": ["dist"],
+  "scripts": {
+    "build": "tsc -p tsconfig.lib.json && vite build",
+    "dev": "vite build --watch --mode development"
+  },
+  "peerDependencies": {
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "three": "^0.150.0",
+    "@react-three/fiber": "^9.0.0",
+    "@react-three/drei": "^10.0.0"
+  }
+}

@@ -1,0 +1,10 @@
+/* Global styles for Gemelo Digital 3D */
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  overflow: hidden;
+  background: #0f0f14;
+  color: #fff;
+}

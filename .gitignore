@@ -1,0 +1,6 @@
+node_modules/
+dist/
+src/planta-3d-viewport.bundle.js
+*.log
+*.map
+.DS_Store

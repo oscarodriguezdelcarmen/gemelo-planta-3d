@@ -1,0 +1,8 @@
+- [x] Angular 19 app (standalone, Signals, RxJS): motor de simulación 30 tics/s, telemetría, control, Ollama + fallback semántico.
+- [x] React 3D (Three.js + @react-three/fiber + @react-three/drei) empaquetado como custom element `<planta-3d-viewport>` vía Vite.
+- [x] Comunicación bidireccional Angular <-> 3D (simulation prop + customevent agv-selected/tick).
+- [x] Script de doble clic `INICIAR_GEMELO_3D.bat` (Ollama auto-inicio, servidor, navegador).
+- [x] Prueba Playwright `/tmp/test_gemelo_3d.py` (local + producción).
+- [x] GitHub Pages deploy (`.github/workflows/deploy.yml`, build_type: workflow).
+- [ ] Verificar render del canvas 3D en producción (Playwright sobre la URL pública).
+- [ ] Confirmar `build_type: workflow` en la configuración de Pages de GitHub.
